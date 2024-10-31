@@ -1,0 +1,12 @@
+contador:int = 0
+index:int = 1
+
+while contador < 5:
+    if index % 3 == 0:
+        print(f'O numero {index} eh multiplo de 3')
+        contador = contador + 1
+
+    index = index + 1
+
+
+
